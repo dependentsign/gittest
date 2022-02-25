@@ -8,3 +8,9 @@ def m(n):
 
 
 Parallel(n_jobs=6)(delayed(m)(i*2)for i in range(5))
+
+
+second = 2
+
+print(2)
+print('new line')
